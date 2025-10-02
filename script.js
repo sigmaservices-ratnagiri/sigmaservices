@@ -138,7 +138,7 @@ const serviceDetails = {
     ]
   },
   "scholorship": {
-    title: "Scholorship Form",
+    title: "Scholarship Form",
     details: [ { heading: "MahaDBT Scholarship Applications"},
       { heading: "NSP Portal Scholarship (std I to X)" }, { heading: "Govt. Hostel Applications"}
     ]
@@ -323,4 +323,5 @@ document.addEventListener("DOMContentLoaded", () => {
       counterEl.textContent = "Visitors: N/A";
     });
 });
+
 
