@@ -126,21 +126,21 @@ const serviceDetails = {
   "admissions": {
     title: "Educational Services",
     details: [
-      { heading: "Online Admissions ( XI to PHD) " }, { heading: "CET, NEET Application and Guidence"},
-  { heading: "Engieering , Medical & Paramedical Admissions"}, { heading: "ANM, GNM, B.sc Nursing Registration" }
+      { heading: "Online Admissions ( XI to PHD) " }, { heading: "CET, NEET Application and Guidance"},
+  { heading: "Engineering, Medical & Paramedical Admissions"}, { heading: "ANM, GNM, B.Sc Nursing Registration" }
     ]
   },
   "govt-recruitment": {
     title: "Govt. Recruitment",
     details: [ { heading: "Assistance & Guidance for Government Recruitment process."},
       { heading: "MPSC, UPSC, Police Bhartri online Application form " }, { heading: "Banking, Jilha Parishad, State Government Recruitment Application"},
-		  { heading: "NDA, Army, Navy, Airforce, Railway Applications"}
+		  { heading: "NDA, Army, Navy, Air Force, Railway Applications"}
     ]
   },
   "scholorship": {
     title: "Scholorship Form",
-    details: [ { heading: "MahaDBT Scholorship Applications"},
-      { heading: "NSP Portal scholorship (std I to X)" }, { heading: "Govt. Hostel Applications"}
+    details: [ { heading: "MahaDBT Scholarship Applications"},
+      { heading: "NSP Portal Scholarship (std I to X)" }, { heading: "Govt. Hostel Applications"}
     ]
   },
   "books": {
@@ -172,7 +172,7 @@ const serviceDetails = {
     ]
   },
   "pwd-engineer": {
-    title: "PWD Unemployed engineer Regi.",
+    title: "PWD Unemployed Engineer Regi.",
       },
   "stationery": {
     title: "Stationery & allied Services",
@@ -253,7 +253,7 @@ serviceItems.forEach(item => {
     modalTitle.textContent = serviceData.title || '';
     modalDetails.innerHTML = '';
 
-    // If details is an array produce a list, else create a paragraph
+    // If details is an array, produce a list, else create a paragraph
     if (Array.isArray(serviceData.details)) {
       const ul = document.createElement('ul');
       ul.classList.add('modal-list');
@@ -323,3 +323,4 @@ document.addEventListener("DOMContentLoaded", () => {
       counterEl.textContent = "Visitors: N/A";
     });
 });
+
